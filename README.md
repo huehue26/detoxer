@@ -26,8 +26,30 @@ With the exception of F7, which has 0 accuracy, recall, and f1-score for the "ha
 
 ## Step 1
 
-Clone the repo using
-`git clone https://github.com/huehue26/detoxer`
+Clone the repo using\
+```
+git clone https://github.com/huehue26/detoxer
+```
+
+## Step 2
+Go to the cloned repository using
+```
+ls detoxer
+```
+
+## Step 3
+Make a .env file and add the variables required 
+```
+MONGODB_URI - MongoDB URI for connection
+
+TOKEN - Discord Bot token for authentication
+```
+
+## Step 4
+Run the main.py script using
+```
+python main.py
+```
 
 ## Testing
 
